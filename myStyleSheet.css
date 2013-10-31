@@ -1,0 +1,70 @@
+body {
+	margin: auto;
+	width: 960px;
+	background-color: black;
+	background: url(Jewel.jpg);
+	background-repeat: no-repeat;
+	font-family: sans-serif;
+	color: white;
+}
+@font-face {
+	font-family: 'star';
+	src: url('fonts/EPISODE1.TTF') format('truetype');
+}
+h1{
+	text-align: center;
+	font-family: 'star';
+}
+#intro {
+	text-align: justify;
+	width: 100%;
+	font-size: larger;
+}
+#wrapper {
+	border: solid 2px #ecc760;
+	margin-top: 20px;
+	background-color: black;
+	background: url(content_bg2.png);
+	padding: 0px 20px 20px 20px;
+	height: 260px;
+	border-radius: 15px;
+}
+ol {
+	list-style-type: upper-alpha;
+}
+li { 
+	margin: 20px;
+}
+hr {
+	width: 95%;
+}
+#game {
+	padding-left: 40px;
+}	
+.special {
+	color: yellow;
+}
+.regular{
+	color: white;
+}
+.win {
+	color: green;
+	font-weight: bold;
+	margin: 19px;
+}
+.fail {
+	color: red;
+	font-weight: bold;
+	margin: 19px;
+}
+.field {
+	color: red;
+	font-weight: bold;
+	text-align: right;
+	border-radius: 5px;
+}
+.question {
+	font-style: italic;
+	font-size: larger;
+	color: white;
+}

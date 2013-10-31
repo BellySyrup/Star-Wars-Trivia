@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+	
+<html>
+	<head>
+		<title>Trivia X Ten</title>
+		<link rel="stylesheet" type="text/css" href="myStyleSheet.css"  />
+		<script src="script.js" type="text/javascript"></script>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+		<h1>Trivia X Ten</h1>
+		<p id="intro">
+			Welcome to TRIVIA X TEN, a little diversion from your busy day! You'll be asked 10 questions,
+			one at a time, and shown 4 possible answers. Click on your choice to answer the question. Each
+			one is worth 5, 10, or 15 points, depending on difficulty. Answer all correctly and you score 100
+			points! Use the button to start TRIVIA X TEN and to move to the next question.	
+		</p>
+		<hr />
+		
+		<div id="game">
+			<button id="button">Next Question</button> 
+			Question: <input type="text" id="questionNum" class="field" readonly="readonly" />
+			Points: <input type="text" id="pointsNum" class="field" readonly="readonly" />
+			Total Score: <input type="text" id="scoreNum" class="field" value="0" readonly="readonly" />
+		</div>
+		<hr />
+		</div>
+	</body>
+	
+</html>
